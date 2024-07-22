@@ -1,0 +1,43 @@
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(158, 214, 255);
+    padding: 10px 0;
+    margin: 20px 0px;
+    border-radius: 5px;
+    /* border: 2px solid rgb(76, 83, 184); */
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.heading:hover{
+    background-color: rgb(15, 128, 250);
+    color: white;
+}
+
+.col{
+    cursor: pointer;
+}
+
+.col-sm{
+    cursor: pointer;
+    
+}
+
+.text{
+    font-weight: 700;
+}
+
+.line{
+
+    margin-top: 30px;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(245, 243, 243);
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
